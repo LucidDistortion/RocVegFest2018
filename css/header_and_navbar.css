@@ -5,7 +5,12 @@
 	z-index: 1; /*So header will overlap footer if window is very short */
 }
 #headerImg {
-	width: 180%;
+	width: 100%;
+	display:inline;
+}
+
+#headerImgfull {
+	display:none;
 }
 
 nav {
@@ -113,7 +118,13 @@ a.navLink-current {
 @media screen and (min-width:480px) {
 
 	#headerImg {
+	width:0%;
+	display:none;
+}
+
+#headerImgfull {
 	width:100%;
+	display:inline;
 }
 
 	li.navItem {
