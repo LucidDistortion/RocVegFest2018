@@ -1,0 +1,56 @@
+#main {
+	padding-bottom: 250px;
+}
+
+h1 {
+	text-align:center;
+	margin-top:3%;
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
+	color:black;
+}
+
+/*Links*/
+a.sitemaplink {	
+	font-family:"Futura", "Times New Roman";
+	font-size:20px;
+	padding:1%;
+	margin-left:3%;
+	}
+
+a.sitemaplink:link {
+	
+	text-decoration:none;
+	list-style-type:none;
+}
+
+a.sitemaplink:visited {
+	color:black;
+
+	}
+	
+a.sitemaplink:hover {
+	color:#29cfbd;
+	
+}
+
+a.anchorlink:link {
+	color:#fffaeb;
+}
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+	#main {
+		padding-bottom: 300px;
+	}
+}
+
+
+	@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+	#main {
+		padding-bottom: 200px;
+	}
+
+	h1 {
+		font-size:30px;
+	}
+}

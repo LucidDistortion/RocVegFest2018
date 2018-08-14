@@ -1,0 +1,315 @@
+/*Footer Content Basics & Boxes*/
+
+#footer {
+	width:100%;
+	height:auto;
+	background-color:#6fba23;
+	
+
+}
+
+#accent {
+	height:10px;
+	background-color:#29cfbd;
+}
+
+.footer_section {
+	margin-top:16px;
+}
+
+	#footer-content {
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:none;
+}
+
+/*Basic Text Styles*/
+h3 { 
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:46px;
+	color:#0b3e1e;
+	text-align:center;
+	margin-bottom:-1%;
+	 }
+
+p {
+	font-family:"Futura Condensed Medium", "Times New Roman";
+}
+
+i {
+	font-size:40px;
+}
+
+i.fa-envelope {
+	font-size:55px;
+	color:#0b3e1e;
+	display:inline;
+	position:absolute;
+	top:-10px;
+	right:0px;
+}
+
+i.fa-facebook {
+	color:#3B5998;
+}
+
+i.fa-square {
+	color:white;
+}
+
+i.fa-instagram {
+
+	color:#c32aa3
+}
+
+i.fa-twitter {
+	color:#1da1f2;
+}
+
+/*Links* check back heeeeeeeerrrrrrreeeeeeeeee*/
+a.anchorlink:link {
+	font-size:14px;
+	text-align:center;
+	color:#fffaeb; 
+	display:inline-block;
+}
+
+a.anchorlink:hover {
+	color:#50f558;
+}
+
+
+a:link {
+	text-decoration:none;
+	list-style-type:none;
+}
+
+a:visited {
+	color:#fffaeb;
+
+	}
+	
+a.navLink:hover {
+	color:#0b3e1e;
+	
+}
+
+
+
+
+/* MailChimp Mailing List Form*/
+#mc_embed_signup{
+	width: 100%;
+
+
+}
+
+#mc_embed_signup .clear {
+	display: inline-block; /* positions button horizontally in line with input */
+}
+
+.footer-email-field {
+	width:100%;
+	display:inline;
+ 	position:relative;
+ 	margin-top:1%;
+}
+
+#emailForm {
+	width: 600px;
+}
+
+
+
+h3.footerTitle {
+	font-size: 32px;
+	margin: 0 0;
+	text-align: left !important;
+}
+
+p#mailDetail {
+	font-size: 14px;
+	color: #0b3e1e;
+	margin: 0 0;
+}
+
+input.subscribe {
+	width:125px !important;
+	background-color:#0b3e1e !important;
+	font-family:"Futura Condensed Medium" !important;
+	font-size:18px !important;
+	color:#fffaeb !important;
+	border: 2px solid #50f558 !important;
+	border-radius:12px !important;
+	
+
+}
+
+/*Social Media*/
+.box1 {
+
+}
+
+.box2 {
+	padding-left:5%;
+}
+
+.box3 {
+	margin-bottom:2%;
+
+}
+
+h3.socialTitle {
+	font-size:24px;
+	text-align:center;
+}
+
+img.socialLink {
+	width: 53px;
+	height: auto;
+	margin-left:80%;
+}
+
+#fb {
+margin-left:4%;
+}
+
+#insta {
+margin-left:6%;
+}
+
+#twitter {
+margin-left:6%;
+}
+
+/*Main Sponsors*/
+#arroc {
+	width:100px;
+}
+
+#ravs {
+	width:60px;
+	padding-bottom:10px;
+}
+
+#anchor {
+	background-color: #0b3e1e;
+	color:#fffaeb;
+	font-size: 14px;
+	font-family:"Futura Condensed Medium";
+	padding:5px 5px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px) {
+	#footer-content {
+	padding-top:25px;
+	padding-bottom:5px;
+	padding-left:3%;
+}
+		
+		h3.footerTitle {
+			font-size:32px !important;
+	}
+
+		h3.socialTitle {
+		font-size: 28px !important;
+	}
+
+	p#mailDetail {
+		font-size: 16px !important;
+	}
+
+	i.fa-envelope {
+	font-size:75px;
+
+	display:inline;
+	position:relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+		#footer-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:none !important;
+	margin-top:20px;
+}
+
+	h3.footerTitle {
+		font-size: 36px !important;
+	}
+
+		p#mailDetail {
+		font-size: 16px !important;
+	}
+
+		h3.socialTitle {
+		font-size: 32px !important;
+	}
+
+	i {
+	font-size:50px;
+}
+
+	i.fa-envelope {
+	font-size:75px;
+	display:inline;
+	position:absolute;
+	top:-10px;
+	right:10px;
+	
+}
+
+
+
+
+#arroc {
+	width:100px;
+}
+
+#ravs {
+	width:80px;
+	padding-bottom:10px;
+
+}
+
+	#anchor {
+		font-size:18px;
+	}
+	a.anchorlink:link {
+		font-size:18px;
+	}
+	.left{
+		text-align:center;
+		position:relative;
+		float:left;
+
+	}
+
+	.right {
+		text-align:center;
+		position:relative;	
+		float:right;
+}
+
+}
+
+

@@ -1,0 +1,187 @@
+/* Main content div */
+#main {
+	padding-bottom: 300px;
+}
+
+/*Headings*/
+h1 {
+	text-align:center;
+	margin-top:3%;
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
+	color:black;
+}
+
+/*Paragraphs*/
+p {
+	font-family:"Futura Condensed Medium","Times New Roman"; /* Only font & color are defined here because they're the only attributes common to ALL paragraphs. */
+	color:black;
+	}
+
+p.bodytext {
+	font-size:24px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+a.textlink {
+	color: black;
+	display:inline;
+}
+
+a.textlink:link {
+	text-decoration:none;
+	color: black;
+}
+
+a.textlink:hover {
+	color: #50f558;
+}
+
+/*Contact Form*/
+#contactfield {
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:3%;
+  width:80%;
+  height:100%;
+  background-color:#29cfbd;
+  padding-top:3%;
+  padding-bottom:3%;
+}
+
+form {
+	width:80%;
+	height:auto;
+}
+/*textarea {
+    width: 60%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color:white;
+    resize:none;
+}
+
+form {
+	padding-top:3%;
+	margin-left:5%;
+}
+
+label {
+	font-size:16px;
+}
+
+input[type=text] {
+	margin-bottom:1%;
+	width:25%;
+}
+
+/*input[type=submit] {
+	width:8%;
+	border-radius:12px;
+	background-color:lightgray;
+}
+*/
+/*@media screen and (max-width: 1614px) {
+input[type=submit] {
+	width:8%;
+}
+}
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+/*	#main {
+		padding-bottom: 300px;
+	}
+	h1 {
+		font-size:40px !important;
+	}
+
+	p.bodytext {
+		font-size:20px !important;
+	}
+
+	label {
+	font-size:14px;
+}
+input[type=text] {
+	width:50%;
+}
+textarea {
+	width:60%;
+}
+input[type=submit] {
+	width:10%;
+}
+}
+
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+	/*#main {
+		padding-bottom: 280px;
+	}
+		h1 {
+		font-size: 30px !important;
+	}
+	p.bodytext {
+		font-size::18px !important;
+	}
+		label {
+	font-size:12px;
+}
+input[type=text] {
+	width:80%;
+}
+
+textarea {
+	width:90%;
+}
+input[type=submit] {
+	width:20%;
+}
+}*/
+
+@media screen and (max-width: 1614px) {
+
+}
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+
+#main {
+		padding-bottom: 400px;
+	}
+	h1 {
+		font-size:30px !important;
+	}
+
+	p.bodytext {
+		font-size:20px !important;
+	}
+
+
+}
+
+@media screen and (max-width: 874px) { 
+
+}
+
+@media screen and (max-width: 544px) {
+
+}
+
+@media screen and (max-width: 450px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

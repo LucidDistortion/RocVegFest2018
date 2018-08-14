@@ -1,0 +1,137 @@
+/* Header */
+#header {
+	position: fixed;
+	top: 0;
+	z-index: 1; /*So header will overlap footer if window is very short */
+}
+#headerImg {
+	width: 180%;
+}
+
+nav {
+    width:100%;
+    height:auto;
+    background-color:black;
+    margin:0, 0 !important;
+    padding:0, 0 !important;
+
+}
+
+#navbar {
+    width:100%;
+    margin-left:0px !important; /*Soooooooo important. 
+    Please dont ever delete!*/
+    
+}
+
+/* Navigation Bar */
+.navbar {
+	width:100%;
+    height:auto;
+	background-color:#6fba23;
+	font-family:"Futura Condensed Medium", "Times";
+	margin-bottom:-.1px;
+    text-align:center;
+	border-radius: 0px;
+	padding: 0px !important;
+}
+
+.navbar-container {	
+	width:100%;
+	padding: 0px !important;
+}
+
+.navbar-header {
+	line-height: 100%;
+	margin: 0px !important;
+}
+
+.currentPage {
+	
+	width: 100%;
+	text-align: center;
+	color:#0b3e1e;
+	
+}
+
+.toggle-button {
+	font-size: 20px;
+	color: #fffaeb;
+	margin-right: 5px;
+
+}
+
+.toggle-button:hover {
+	color: #0b3e1e; !important;
+	
+}
+
+
+.navbar-collapse {
+	width: 100% !important;
+	padding: 0px !important;
+}
+
+ul.nav {
+     display:inline-block;
+     list-style:none;
+     width:100%;
+     text-align:center;  
+}
+
+ul.navbar-nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+li.navItem {
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+a.navLink { 
+	color: #fffaeb !important;
+	white-space: nowrap !important;
+
+}
+
+a.navLink:hover {
+	color: #0b3e1e !important;
+	background-color: #6fba23 !important;
+}
+
+a.navLink-current {
+	color: #0b3e1e !important;
+}
+
+
+
+@media screen and (min-width:480px) {
+
+	#headerImg {
+	width:100%;
+}
+
+	li.navItem {
+    width: 12.5% !important;
+}
+
+	}
+
+		a.navLink {
+		font-size: 16px;
+	}
+
+
+@media screen and (min-width:768px) {
+
+		a.navLink {
+		font-size: 18px;
+	}
+}
+
+

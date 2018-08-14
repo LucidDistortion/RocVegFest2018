@@ -1,0 +1,308 @@
+/* Main content div */
+#main {
+	padding-bottom: 700px;
+}
+/*Headings*/
+h1 {
+	text-align:center;
+	margin-top:3%;
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:50px; 
+	color:black;
+}
+
+h2 {
+	font-family:"PoplarSTD","Times New Roman";
+	font-size:42px;
+	color:black;
+	text-align:center;
+	margin-top:2%;
+}
+
+/*Paragraphs*/
+p {
+	font-family:"Futura Condensed Medium","Times New Roman"; /* Only font & color are defined here because they're the only attributes common to ALL paragraphs. */
+	color:black;
+	}
+
+p.bodytext {
+	font-size:24px;
+	margin-left:10%;
+}
+
+p.detailtext {
+	width:100%;
+	color:black;
+	font-size:20px;
+	text-align:center;
+	margin-top:2%;
+}
+
+/* MailChimp form style */
+#volunteerbox {
+width:50%;
+height:auto;
+background-color:#fa8789;
+margin-left:25%;
+margin-right:25%; 
+border-radius:12px;
+padding-bottom:1%;
+
+}
+
+.peacegraphic {
+margin-left:auto;
+margin-right:auto;
+}
+
+#peace {
+	width:125px;
+	margin-left:200%;
+	margin-top:20%;
+}
+
+#mc_embed_signup.volunteerxup {
+	width: 100%;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#mc_embed_signup .clear {
+	display: inline-block; /* positions button horizontally in line with input */
+}
+label {
+	color:black;
+	margin-right:3%;
+}
+input[type=email] {
+width:100%;
+}
+
+input[type=text] {
+width:85%;
+
+}
+
+#fname {
+	margin:none;
+
+}
+
+#lname {
+	margin-left:-8%;
+}
+
+#email {
+margin:none;
+margin-top:2%;
+}
+
+textarea {
+	width:100%;
+}
+
+input.submitbutton {
+	width:125px !important;
+	background-color:#fec227 !important;
+	font-family:"Futura Condensed Medium", "Times New Roman" !important;
+	font-size:18px !important;
+	color:#fffaeb !important;
+	border: 2px solid #29cfbd !important;
+	border-radius:12px !important;
+	margin-top:13%;
+	margin-left:-4%;
+}
+.footer-email-field {
+	width:95%;
+ 	position: absolute;
+ 	left: 0;
+ 	margin-left:4%;
+ 	margin-top:1%;
+}
+
+
+h2.vollisttitle {
+	font-size: 42px;
+	margin-left:20%;
+	color:#fec227;
+	text-align: left !important;
+	margin-top:10%;	
+}
+
+p.volmailDetail {
+	font-family:"Futura Condensed Medium", "Times New Roman";
+	font-size: 20px;
+	color:#fec227;
+	text-align:center;
+	margin-right:8%;
+	margin-top:-2%;
+}
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+	#main {
+		padding-bottom: 800px;
+	}
+
+	#peace {
+	width:100px;
+	margin-top:20%;
+}
+
+input[type=email] {
+width:120%;
+}
+
+input[type=text] {
+width:120%;
+margin-top:2%;
+
+}
+
+#fname {
+	margin:none;
+
+}
+
+#lname {
+	margin-left:0 !important;
+}
+
+#email {
+margin:none;
+margin-top:2%;
+}
+
+}
+
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+	#main {
+		padding-bottom: 700px;
+	}
+
+	h1 {
+		font-size:30px;
+	}
+
+	h2.vollisttitle {
+	font-size:24px;
+	margin-left:24%;
+}
+
+	#peace {
+	width:90px;
+}
+
+#volunteerbox {
+width:60%;
+margin-left:20%;
+margin-right:20%; 
+}
+
+	p.bodytext {
+	font-size:16px;
+
+}
+
+p.volmailDetail {
+	font-size: 14px;
+	text-align:center;
+	margin-right:-20%;
+	margin-top:-2%;
+}
+
+p.detailtext {
+	font-size:14px;
+	}
+
+input[type=email] {
+width:130%;
+}
+
+input[type=text] {
+width:130%;
+margin-top:2%;
+
+}
+
+#fname {
+	margin:none;
+
+}
+
+#lname {
+	margin-left:0 !important;
+}
+
+#email {
+margin:none;
+margin-top:2%;
+}
+
+
+
+
+@media screen and (max-width: 544px) {
+	#main {
+		padding-bottom: 700px;
+	}
+
+	#peace {
+	width:90px;
+}
+
+#volunteerbox {
+width:80%;
+margin-left:10%;
+margin-right:10%; 
+}
+
+
+
+p.detailtext {
+	font-size:14px;
+	}
+
+input[type=email] {
+width:150%;
+}
+
+input[type=text] {
+width:150%;
+margin-top:2%;
+
+}
+
+#fname {
+	margin:none;
+
+}
+
+#lname {
+	margin-left:0 !important;
+}
+
+#email {
+margin:none;
+margin-top:2%;
+}
+	}
+
+@media screen and (max-width: 320px) {
+		#main {
+		padding-bottom: 950px;
+	}	
+
+		h1 {
+		font-size:24px;
+	}
+
+		h2.vollisttitle {
+	font-size: 22px;
+}
+
+p.bodytext {
+font-size:14px;
+}
+
+}
