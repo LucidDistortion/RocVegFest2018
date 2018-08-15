@@ -55,92 +55,7 @@ form {
 	width:80%;
 	height:auto;
 }
-/*textarea {
-    width: 60%;
-    height: 300px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color:white;
-    resize:none;
-}
 
-form {
-	padding-top:3%;
-	margin-left:5%;
-}
-
-label {
-	font-size:16px;
-}
-
-input[type=text] {
-	margin-bottom:1%;
-	width:25%;
-}
-
-/*input[type=submit] {
-	width:8%;
-	border-radius:12px;
-	background-color:lightgray;
-}
-*/
-/*@media screen and (max-width: 1614px) {
-input[type=submit] {
-	width:8%;
-}
-}
-
-@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
-/*	#main {
-		padding-bottom: 300px;
-	}
-	h1 {
-		font-size:40px !important;
-	}
-
-	p.bodytext {
-		font-size:20px !important;
-	}
-
-	label {
-	font-size:14px;
-}
-input[type=text] {
-	width:50%;
-}
-textarea {
-	width:60%;
-}
-input[type=submit] {
-	width:10%;
-}
-}
-
-@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
-	/*#main {
-		padding-bottom: 280px;
-	}
-		h1 {
-		font-size: 30px !important;
-	}
-	p.bodytext {
-		font-size::18px !important;
-	}
-		label {
-	font-size:12px;
-}
-input[type=text] {
-	width:80%;
-}
-
-textarea {
-	width:90%;
-}
-input[type=submit] {
-	width:20%;
-}
-}*/
 
 @media screen and (max-width: 1614px) {
 
@@ -162,16 +77,14 @@ input[type=submit] {
 
 }
 
-@media screen and (max-width: 874px) { 
+
+
+
+@media screen and (min-width:480px) {
 
 }
 
-@media screen and (max-width: 544px) {
-
-}
-
-@media screen and (max-width: 450px) {
-
+@media screen and (min-width:768px) {
 
 }
 
