@@ -8,7 +8,7 @@ h1 {
 	text-align:center;
 	margin-top:3%;
 	font-family:"PoplarSTD","Times New Roman";
-	font-size:50px; 
+	font-size:34px; 
 	color:black;
 }
 
@@ -82,9 +82,17 @@ form {
 
 @media screen and (min-width:480px) {
 
+h1 {
+    font-size:40px;
+}
+
 }
 
 @media screen and (min-width:768px) {
+
+h1 {
+    font-size:46px;
+}
 
 }
 

@@ -107,7 +107,7 @@ textarea {
 /*Headings*/
 h1 {
 	text-align:center;
-	margin-top:3%;
+	margin-top:5%;
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:34px; 
 	color:black;
@@ -119,7 +119,7 @@ h2 {
 	width:80%;
 	margin-left:10%;
 	text-align:center;
-	margin-top:3%;
+	margin-top:5%;
 	font-size:30px;
 }
 
@@ -184,10 +184,12 @@ a.linky:hover {
 
 h1 {
     font-size:40px;
+    margin-top:3%;
 }
 
 h2 {
     font-size:36px;
+    margin-top:3%;
 }
 
 p.callout2 {
