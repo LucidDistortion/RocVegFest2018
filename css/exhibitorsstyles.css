@@ -201,123 +201,12 @@ form.donate {
 	float:right;
 }
 
-@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
-	#main {
-		padding-bottom: 400px;
-	}
-}
-
-@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
-#main {
-		padding-bottom: 300px;
-	}
-
-	h1 {
-		font-size:30px;
-	}
-
-	h2 {
-		font-size:22px;
-		
-	}
-
-	
-p.donatetext {
-	font-size:14px;
-}
-
-p.donatedetail {
-	font-size:12px;
-}
-
-	#donatetable {
-		width:100%;
-	}
-
-.vendorimg {
-	width:100%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-bottom:10%;
-	padding:2% 0;
-}
-
-#tshirt2 {
-float:left;
-margin-left:auto;
-margin-right:auto;
-
-}
-}
-
-@media screen and (max-width:320px) {
-			h1 {
-		font-size:24px;
-	}
-
-		h2 {
-		margin-top:5%;
-	}
 
 
-	h5 {
-	margin-top:5%;
-}
-p.donatetext {
-	font-size:12px;
-}
-
-p.donatedetail {
-	font-size:11px;
-}
-
-#image1 {
-width:80px;
+@media screen and (min-width:480px) {
 
 }
 
-#image2 {
-	width:80px;
-
-}
-
-#image3 {
-	width:80px;
-
-}
-
-#image4 {
-	width:80px;
-}
-
-#donatefield {
-border:solid black 1px;
-	}
-
-	#donatetable {
-		width:80%;
-		margin-left:10%;
-	}
-
-#tshirt1 {
-	width:100%;
-	margin-right:25% !important;
-	margin-left:-15% !important;
-	}
-#tshirt2 {
-	width:100%;
-	margin-right:20% !important;
-
-} 
-
-#water-bottle {
-	width:20%;
-}
-
-#paypallogo {
-	width:80%;
-}
-
-
+@media screen and (min-width:768px) {
 
 }
