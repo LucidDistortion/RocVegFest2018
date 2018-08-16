@@ -6,7 +6,7 @@ h1 {
 	text-align:center;
 	margin-top:3%;
 	font-family:"PoplarSTD","Times New Roman";
-	font-size:50px; 
+	font-size:34px; 
 	color:black;
 }
 
@@ -38,19 +38,18 @@ a.anchorlink:link {
 	color:#fffaeb;
 }
 
-@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
-	#main {
-		padding-bottom: 300px;
-	}
+@media screen and (min-width:480px) {
+
+h1 {
+    font-size:40px;
 }
 
+}
 
-	@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
-	#main {
-		padding-bottom: 200px;
-	}
+@media screen and (min-width:768px) {
 
-	h1 {
-		font-size:30px;
-	}
+h1 {
+    font-size:46px;
+}
+
 }
