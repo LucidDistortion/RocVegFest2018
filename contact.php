@@ -6,6 +6,9 @@
 <meta charset="UTF-8">
 <title>Rochester VegFest</title>
 
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/other/favicon.png"/>
+
 <link rel="stylesheet" href="css/normalize.css">
         <!--Bootstrap CSS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -36,9 +39,11 @@
 </head>
 
 <body>
+<!-- Header image -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col"><img id="headerImg" src="images/other/vegfestheader.jpg" alt="Rochester VegFest MLK Park Semptember 16th, 2017"></div>
+		<div class="col"><img id="headerImg" src="images/other/vegfestheader.jpg" alt="Rochester VegFest MLK Park Semptember 15th, 2018"></div>
+        <div class="col"><img id="headerImgfull" src="images/other/vegfestheader_fullsize.jpg" alt="Rochester VegFest MLK Park Semptember 15th, 2018"></div>
 	</div>
 </div>
 
@@ -56,7 +61,15 @@
 				<li class="navItem"><a class="navLink navLink-current" href="exhibitors.html">EXHIBITORS</a></li>
 				<li class="navItem"><a class="navLink" href="speakers.html">SPEAKERS</a></li>
 				<li class="navItem"><a class="navLink" href="volunteer.html">VOLUNTEER</a></li>
-				<li class="navItem"><a class="navLink" href="https://rocvegfest.org/roc-veg-guide/">GUIDE</a></li>
+				<!-- "Guide" dropdown menu -->
+				<li class="navItem dropdown"><a class="navLink dropdown toggle" href="#" id="group-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GUIDE</a>
+					<div class="dropdown-menu" aria-labelledby="group-dropdown">
+						<a class="dropdown-item" href="https://rocvegfest.org/roc-veg-guide/">ABOUT</a>
+						<a class="dropdown-item" href="https://rocvegfest.org/guide/info-for-businesses/">FOR RESTAURANT OWNERS</a>
+						<a class="dropdown-item" href="https://rocvegfest.org/guide/flx-vegan-wine-trail/">FLX VEGAN WINE TRAIL</a>
+						<a class="dropdown-item" href="https://rocvegfest.org/guide/dining-savings-card/">DINING SAVINGS CARD</a>
+					</div>
+				</li>
 				<li class="navItem"><a class="navLink" href="https://rocvegfest.org/news/">UPDATES</a></li>
 				<li class="navItem"><a class="navLink" href="contact.php">CONTACT</a></li>
 			</ul>
