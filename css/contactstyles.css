@@ -57,29 +57,6 @@ form {
 }
 
 
-@media screen and (max-width: 1614px) {
-
-}
-
-@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
-
-#main {
-		padding-bottom: 400px;
-	}
-	h1 {
-		font-size:30px !important;
-	}
-
-	p.bodytext {
-		font-size:20px !important;
-	}
-
-
-}
-
-
-
-
 @media screen and (min-width:480px) {
 
 h1 {

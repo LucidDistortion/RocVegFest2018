@@ -1,5 +1,118 @@
-/* Main content div */
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
 
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Main content div */
+#main {
+	width:100%;
+	height:auto;
+}
 /*Headings*/
 h1 {
 	text-align:center;
@@ -12,9 +125,10 @@ h1 {
 h2 {
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:30px;
-	color:black;
+	color:#fec227;
 	text-align:center;
-	margin-top:2%;
+	margin-top:10%;	
+}
 }
 
 /*Paragraphs*/
@@ -24,6 +138,7 @@ p {
 	}
 
 p.text {
+	color:black;
 	font-size:16px;
 	width:80%;
 	margin-left:10%;
@@ -41,24 +156,26 @@ p.detailtext {
 
 /* MailChimp form style */
 #volunteerbox {
-width:50%;
+width:90%;
 height:auto;
 background-color:#fa8789;
-margin-left:25%;
-margin-right:25%; 
+margin-top:5%;
+margin-bottom:5%; 
+margin-left:5%;
+margin-right:5%; 
 border-radius:12px;
 padding-bottom:1%;
 
 }
 
 .peacegraphic {
-margin-left:auto;
-margin-right:auto;
+	width:20%;
+	margin-left:10%;
 }
 
 #peace {
-	width:125px;
-	margin-left:200%;
+	width:100%;
+
 	margin-top:20%;
 }
 
@@ -123,14 +240,6 @@ input.submitbutton {
 }
 
 
-h2.vollisttitle {
-	font-size: 42px;
-	margin-left:20%;
-	color:#fec227;
-	text-align: left !important;
-	margin-top:10%;	
-}
-
 p.volmailDetail {
 	font-family:"Futura Condensed Medium", "Times New Roman";
 	font-size: 20px;
@@ -140,7 +249,57 @@ p.volmailDetail {
 	margin-top:-2%;
 }
 
-@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking */
+
+@media screen and (min-width:480px) {
+
+h1 {
+    font-size:40px;
+    margin-top:3%;
+}
+
+h2 {
+    font-size:36px;
+    margin-top:3%;
+}
+
+p.text {
+    font-size:18px;
+}
+
+#volunteerbox {
+width:80%;
+margin-left:10%;
+margin-right:10%;
+}
+
+}
+
+
+@media screen and (min-width:768px) {
+
+h1 {
+    font-size:46px;
+}
+
+h2 {
+    font-size:42px;
+}
+
+p.text {
+    font-size:20px;
+}
+
+#volunteerbox {
+width:70%;
+margin-left:15%;
+margin-right:15%;
+}
+
+}
+
+/*
+
+@media screen and (max-width: 1214px) { /* Breakpoint at which footer becomes a little taller due to bottom links stacking 
 	#main {
 		padding-bottom: 800px;
 	}
@@ -176,7 +335,7 @@ margin-top:2%;
 
 }
 
-@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here */
+@media screen and (max-width: 768px) { /* The "mobile" breakpoint - footer colums stack here 
 
 
 	h1 {
@@ -323,3 +482,5 @@ h1 {
 }
 
 }
+
+*/
