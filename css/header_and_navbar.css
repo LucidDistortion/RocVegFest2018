@@ -121,6 +121,8 @@ a.dropdown-item {
 	color: #fffaeb !important;
 	white-space: nowrap !important;
 	padding: 5px;
+	width: 100% !important;
+	display: block;
 }
 
 /* Prevents nav links from changing color when clicked - especially important for dropdown links */
@@ -145,22 +147,21 @@ a.navLink-current {
 	#headerImg {
 	width:0%;
 	display:none;
-}
+	}
 
-#headerImgfull {
-	width:100%;
-	display:inline;
-}
+	#headerImgfull {
+		width:100%;
+		display:inline;
+	}
 
 	li.navItem {
-    width: 12.5% !important;
-}
-
+		width: 12.5% !important;
 	}
 
-		a.navLink {
+	a.navLink {
 		font-size: 16px;
 	}
+}
 
 
 @media screen and (min-width:768px) {
