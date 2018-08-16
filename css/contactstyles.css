@@ -47,29 +47,54 @@ a.textlink:hover {
   width:80%;
   height:100%;
   background-color:#29cfbd;
-  padding-top:3%;
-  padding-bottom:3%;
+  padding:3%;
+
 }
 
-form {
+form#gbcf-form {
 	width:80%;
 	height:auto;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+p.form-footer {
+	margin-left: 10%;
+}
+
+textarea#message {
+	width:100%;
+}
+
+/* Ensures that checkbox label will be displayed on the same line as the checkbox itself */
+input#cc-opt, input#cc-opt-label {
+	display:inline;
+}
+
+/* Adds empty space between form inputs */
+input, select, textarea {
+	margin-bottom:10px;
 }
 
 
 @media screen and (min-width:480px) {
 
-h1 {
-    font-size:40px;
-}
+	h1 {
+	    font-size:40px;
+	}
 
 }
 
 @media screen and (min-width:768px) {
 
-h1 {
-    font-size:46px;
-}
+	h1 {
+	    font-size:46px;
+	}
+
+
+	textarea#message {
+		width:80%;
+	}
 
 }
 
