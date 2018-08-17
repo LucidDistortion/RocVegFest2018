@@ -5,7 +5,7 @@
 /*Headings*/
 h1 {
 	text-align:center;
-	margin-top:3%;
+	margin-top:5%;
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:50px; 
 	color:black;
@@ -119,6 +119,7 @@ a.anchorlink:link {
 
 h1 {
     font-size:40px;
+     margin-top:3%;
 }
 
 }
