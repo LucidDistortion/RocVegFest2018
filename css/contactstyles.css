@@ -6,7 +6,7 @@
 /*Headings*/
 h1 {
 	text-align:center;
-	margin-top:3%;
+	margin-top:5%;
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:34px; 
 	color:black;
@@ -64,6 +64,12 @@ p.form-footer {
 
 textarea#message {
 	width:100%;
+}
+
+h1 {
+    font-size:40px;
+    margin-top:3%;
+
 }
 
 /* Ensures that checkbox label will be displayed on the same line as the checkbox itself */

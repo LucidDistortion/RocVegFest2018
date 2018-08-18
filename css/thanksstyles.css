@@ -1,6 +1,11 @@
+#main {
+	padding-bottom:20px;
+}
+
+
 h1 {
 	text-align:center;
-	margin-top:23%;
+	margin-top:5%;
 	font-family:"PoplarSTD","Times New Roman";
 	font-size:34px; 
 	color:black;
@@ -11,22 +16,26 @@ h1 {
 
 
 /*Paragraphs*/
-p {
-	font-family:"Futura Condensed Medium","Times New Roman"; /* Only font & color are defined here because they're the only attributes common to ALL paragraphs. */
+p.text {
+	font-family:"Futura Condensed Medium","Times New Roman"; 
 	color:black;
-	}
-
-p.message {
-	font-size:24px;
+	font-size:16px;
 	width:80%;
 	margin-left:10%;
-}
+	}
+
+
 
 
 @media screen and (min-width:480px) {
 
 h1 {
     font-size:40px;
+    margin-top:5%;
+}
+
+p.text {
+	font-size:18px;
 }
 
 }
@@ -35,6 +44,10 @@ h1 {
 
 h1 {
     font-size:46px;
+}
+
+p.text {
+	font-size:20px;
 }
 
 }

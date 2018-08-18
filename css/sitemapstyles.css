@@ -1,5 +1,5 @@
 #main {
-	padding-bottom: 250px;
+	padding-bottom:20px;
 }
 
 h1 {
@@ -38,10 +38,15 @@ a.anchorlink:link {
 	color:#fffaeb;
 }
 
+a.subheading {
+	margin-left:10%;
+}
+
 @media screen and (min-width:480px) {
 
 h1 {
     font-size:40px;
+    margin-top:5%;
 }
 
 }
