@@ -182,8 +182,8 @@ echo $user_message;
 <?php if($offer_cc_opt != "yes") { 
         // Nada
       } else { ?>
-   <label id="cc-opt-error" class="opt-label check">
-    <input class="checkbox" type="checkbox" name="cc-opt" id="cc-opt" value="cc"<?php echo $cc_chk_value; ?><?php echo $x_or_h; ?>>&nbsp;&nbsp;<?php echo $cc_label; ?></label><?php echo $add_break; ?><?php echo $add_break; ?><?php echo $add_break; ?>
+   <label id="cc-opt-error" class="opt-label check"></label>
+    <input class="checkbox" type="checkbox" name="cc-opt" id="cc-opt" value="cc"<?php echo $cc_chk_value; ?><?php echo $x_or_h; ?>>&nbsp;&nbsp;<label id="cc-opt-label"><?php echo $cc_label; ?></label><?php echo $add_break; ?><?php echo $add_break; ?><?php echo $add_break; ?>
 <?php } ?>
     <input type="submit" class="button" name="<?php echo $form_id; ?>" id="<?php echo $form_id; ?>" value="<?php echo $submit_text; ?>" alt="<?php echo $submit_text; ?>"<?php echo $x_or_h; ?>><br<?php echo $x_or_h; ?>>
  </fieldset>
